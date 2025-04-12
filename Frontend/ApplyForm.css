@@ -1,0 +1,53 @@
+
+
+/* ApplyForm.css */
+.apply-form-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.job-details {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.job-details h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.job-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.apply-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.apply-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.apply-form button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-form button:hover {
+    background-color: #0056b3;
+}
+

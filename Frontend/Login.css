@@ -1,0 +1,130 @@
+/* Login.css */
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #007BFF, #00BFFF); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+/* Container for the Login Form */
+.login-container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Heading */
+.login-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+}
+
+/* Form Styles */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Input Fields */
+.login-form input {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #333333;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+.login-form input:focus {
+    background: rgba(255, 255, 255, 1); /* Fully white background on focus */
+}
+
+/* Button Styles */
+.login-form button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #007BFF, #00BFFF); /* Gradient background */
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.login-form button:hover {
+    background: linear-gradient(135deg, #0056b3, #0088cc);
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4); /* Shadow for depth */
+}
+
+/* Register Link */
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.register-link button {
+    background: none;
+    border: none;
+    color: #28A745;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.register-link button:hover {
+    color: #218838;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    .login-container h2 {
+        font-size: 28px;
+    }
+
+    .login-form input,
+    .login-form button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
