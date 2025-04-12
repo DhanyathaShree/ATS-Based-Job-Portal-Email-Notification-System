@@ -1,13 +1,6 @@
-# ATS-Based-Job-Portal-Email-Notification-System
-Certainly! Here's your refined and **professionally formatted** `README.md` content written in a clean, formal tone, ideal for a GitHub repository:
-
----
-
 # ATS-Based Job Portal Email Notification System
 
 This project is a comprehensive job portal solution designed for both applicants and recruiters. It features an integrated Applicant Tracking System (ATS) to evaluate resumes based on job descriptions using NLP techniques, and an automated email notification system to communicate application status. The system streamlines the recruitment workflow by enhancing the efficiency and transparency of the job application process.
-
----
 
 ## Overview
 
@@ -17,8 +10,6 @@ The platform provides two primary interfaces:
 - **Recruiters** can post jobs, view applicants, and utilize ATS scores to automate or manually manage candidate selection.
 
 A key feature of this system is its ability to automatically evaluate and score resumes, determine application outcomes, and notify candidates accordingly.
-
----
 
 ## Features Implemented
 
@@ -49,7 +40,6 @@ A key feature of this system is its ability to automatically evaluate and score 
   - Accept or reject candidates with ATS Score < 60%.
   - Trigger appropriate status updates and email notifications.
 
----
 
 ## ATS (Applicant Tracking System) Logic
 
@@ -57,7 +47,6 @@ A key feature of this system is its ability to automatically evaluate and score 
 - **Relevance Scoring**: Generates a numerical score (0–100) to quantify the match between a resume and the job description.
 - **Format Support**: Supports resume files in DOCX, PDF, and plain text formats.
 
----
 
 ## Email Notification System
 
@@ -67,7 +56,6 @@ A key feature of this system is its ability to automatically evaluate and score 
   - When a recruiter manually accepts or rejects an application.
 - Emails are composed in plain text but can be extended to HTML formatting if required.
 
----
 
 ## Technology Stack
 
